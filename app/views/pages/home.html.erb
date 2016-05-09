@@ -1,0 +1,15 @@
+<h1>Test</h1>
+
+<% ingredients = [ 'milk', 'sugar', 'bread' ] %>
+
+<h2>Shopping list</h2>
+
+<ol>
+<% ingredients.each do |ingredient| %>
+  <li><%= ingredient %></li>
+<% end %>
+</ol>
+
+<h1>
+  Last year was exactly <%= @last_year %>
+</h1>
